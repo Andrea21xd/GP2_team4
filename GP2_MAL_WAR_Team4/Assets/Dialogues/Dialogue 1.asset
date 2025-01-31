@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d0d70adf2c0514d9f122160ac54b64, type: 3}
+  m_Name: Dialogue 1
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: Hey my name is Bob the test Guy. Is this working?
+    responses:
+    - responseText: Yes it does
+      nextNode:
+        dialogueText: Perfect then i will leave
+        responses:
+        - responseText: Close
+          nextNode:
+            dialogueText: 
+            responses: []
+    - responseText: No it did not
+      nextNode:
+        dialogueText: Ah man thats annoying
+        responses:
+        - responseText: Close
+          nextNode:
+            dialogueText: 
+            responses: []
