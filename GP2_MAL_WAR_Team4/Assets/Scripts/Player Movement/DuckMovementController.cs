@@ -25,7 +25,7 @@ public class DuckMovementController : MonoBehaviour
 
     void Update()
     {
-        HandleIsometricMovement();
+        HandleMovement();
     }
 
     private void HandleMovement()
