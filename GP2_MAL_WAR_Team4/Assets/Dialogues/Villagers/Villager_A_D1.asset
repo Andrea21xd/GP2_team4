@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d0d70adf2c0514d9f122160ac54b64, type: 3}
+  m_Name: Villager_A_D1
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: "I heard the whole got-dang thing! I guess the legends were true,
+      everyone!\nNow that you\u2019re here, big hero... think ya'd be able to lend
+      us a hand? \nOl\u2019 Duke Gross has been working us farmers right to the bone
+      this whole year...  we\u2019ve got nothin to show \u2018fer it. \nThe villagers
+      are demanding change... but nobody\u2019s got the guts to stand up to him.
+      \n"
+    responses:
+    - responseText: Quack
+      nextNode:
+        dialogueText: "That\u2019s where you come in, friend! You can be the... er...
+          \u2018voice\u2019 of the people! \nSo, whaddya say, hero? Will ya help
+          the people stand on their own two feet?"
+        responses:
+        - responseText: Close
+          nextNode:
+            dialogueText: 
+            responses: []
+          questInfoForPoint: {fileID: 0}
+          startPoint: 0
+          finishPoint: 0
+      questInfoForPoint: {fileID: 0}
+      startPoint: 0
+      finishPoint: 1
