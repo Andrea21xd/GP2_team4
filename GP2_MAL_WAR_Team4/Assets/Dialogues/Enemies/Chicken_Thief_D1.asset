@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d0d70adf2c0514d9f122160ac54b64, type: 3}
+  m_Name: Chicken_Thief_D1
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: Oi! Where do you think you're off to, in such a hurry?
+    responses:
+    - responseText: '"Quack."'
+      battleNPC: 0
+      EnemyId: 0
+      nextNode:
+        dialogueText: 'Hmm... you''re an odd-looking chicken, to say the least.
+
+          Still
+          meaty, nevertheless... I''m sure my brother will approve.'
+        responses:
+        - responseText: '"Quack!"'
+          battleNPC: 0
+          EnemyId: 0
+          nextNode:
+            dialogueText: "Well then, my bird of prey. You should ask yourself...
+              \nDo you still feel so lucky? Well, do you, duck?"
+            responses:
+            - responseText: '"...Quack."'
+              battleNPC: 1
+              EnemyId: 3
+              nextNode:
+                dialogueText: 
+                responses: []
+              questInfoForPoint: {fileID: 0}
+              startPoint: 0
+              finishPoint: 0
+          questInfoForPoint: {fileID: 0}
+          startPoint: 0
+          finishPoint: 0
+      questInfoForPoint: {fileID: 11400000, guid: d66ecb8890be0c5468d0b2275757d8d7, type: 2}
+      startPoint: 1
+      finishPoint: 0

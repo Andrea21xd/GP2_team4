@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1691015902063978391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 304411156578626464}
+  - component: {fileID: 3442349508458268435}
+  - component: {fileID: 8354563367039827755}
+  m_Layer: 0
+  m_Name: Duke
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &304411156578626464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691015902063978391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6696652151977044535}
+  - {fileID: 2508073233109220401}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3442349508458268435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691015902063978391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d062c9ace37662d47b4ffda1a36b8fba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Duke Foie Gross of House Bozos
+  EnemyId: 2
+  repeatableInteraction: 0
+  BattleNPC: 1
+  triggerNPC: 0
+  Dialogue: {fileID: 11400000, guid: 8d7bb9c02cf474247a7f39f4d45b1163, type: 2}
+  AlternativeDialogue: {fileID: 0}
+  DialogueManager: {fileID: 0}
+  InteractionCollider: {fileID: 3698720843323407268}
+  NPC: {fileID: 1691015902063978391}
+  neverTalked: 0
+--- !u!135 &8354563367039827755
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691015902063978391}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &3698720843323407268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6696652151977044535}
+  - component: {fileID: 5678672460515779106}
+  m_Layer: 0
+  m_Name: InteractionCollider
+  m_TagString: InteractiveObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6696652151977044535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698720843323407268}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.258, z: 0}
+  m_LocalScale: {x: 1.7202916, y: 1.7202916, z: 1.7202916}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 304411156578626464}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5678672460515779106
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698720843323407268}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &8397580138348582332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 304411156578626464}
+    m_Modifications:
+    - target: {fileID: 2636788074803733800, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_Name
+      value: NPC_Duke
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+--- !u!4 &2508073233109220401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6216170306613504397, guid: 1d0b817d6baacf24ba05ec1b66edfb0c, type: 3}
+  m_PrefabInstance: {fileID: 8397580138348582332}
+  m_PrefabAsset: {fileID: 0}

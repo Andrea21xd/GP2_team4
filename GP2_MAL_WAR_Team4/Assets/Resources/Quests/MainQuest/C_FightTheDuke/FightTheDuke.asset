@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e042cffc7ab145a88b8c9380a3a6bab, type: 3}
+  m_Name: FightTheDuke
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: 7e0fcfc4-0419-46b5-b691-4fa9bb1c3d8d
+  displayName: Fight and defeat The Duke
+  objective: Fight and defeat The Duke
+  health: 0
+  speed: 0
+  luck: 0
+  baseDamage: 0
+  questPrerequisites:
+  - {fileID: 11400000, guid: 7617e4f045a0aea4cb158e2da4093083, type: 2}
+  questStepPrefabs:
+  - {fileID: 1853839557942585117, guid: e3b91b67d5c364244a653e8ea2f357a8, type: 3}
+  healthReward: 5
+  speedReward: 0
+  luckReward: 0
+  baseDamageReward: 0
+  playerChoosesReward: 1

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e042cffc7ab145a88b8c9380a3a6bab, type: 3}
+  m_Name: TheBaker
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: 5d60ce3a-1597-4f2a-8d4c-ebf157e2847b
+  displayName: Speka to VIllagers
+  objective: Speak to villagers and come back to The Baker
+  health: 0
+  speed: 0
+  luck: 0
+  baseDamage: 0
+  questPrerequisites:
+  - {fileID: 11400000, guid: a8f8b86f7711c2d468645cc95e079e87, type: 2}
+  questStepPrefabs:
+  - {fileID: 2129619921540269804, guid: 6dd97f9e531f74544a8bfbe7f3a509bd, type: 3}
+  - {fileID: 2129619921540269804, guid: f95d522b19f27ee4198649eb5764a33d, type: 3}
+  healthReward: 10
+  speedReward: 0
+  luckReward: 0
+  baseDamageReward: 0
+  playerChoosesReward: 0

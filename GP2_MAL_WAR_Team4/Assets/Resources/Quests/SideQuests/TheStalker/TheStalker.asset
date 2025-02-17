@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e042cffc7ab145a88b8c9380a3a6bab, type: 3}
+  m_Name: TheStalker
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: c84b9aab-f24c-4c92-a011-4eba7fc35c7a
+  displayName: Chase and speak to The Stalker
+  objective: Chase and speak to The Stalker
+  health: 0
+  speed: 0
+  luck: 0
+  baseDamage: 0
+  questPrerequisites:
+  - {fileID: 11400000, guid: d66ecb8890be0c5468d0b2275757d8d7, type: 2}
+  questStepPrefabs:
+  - {fileID: 573258055584225847, guid: 06460b5bcf32c70469b76c2590794556, type: 3}
+  healthReward: 0
+  speedReward: 2
+  luckReward: 0
+  baseDamageReward: 0
+  playerChoosesReward: 0

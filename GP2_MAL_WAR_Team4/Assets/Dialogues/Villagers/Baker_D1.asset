@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d0d70adf2c0514d9f122160ac54b64, type: 3}
+  m_Name: Baker_D1
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: 'The smell of freshly baked bread... nothing else quite like it!
+
+      Even
+      our feathered friend here can''t resist it''s fine aroma!'
+    responses:
+    - responseText: ...
+      battleNPC: 0
+      EnemyId: 0
+      nextNode:
+        dialogueText: 'I''m trying out a new healthy recipe, with a variety of seeds
+          and other nutritious ingredients...
+
+          ...But the people don''t
+          seem to care for it. A pity, really. '
+        responses:
+        - responseText: '"Quack."'
+          battleNPC: 0
+          EnemyId: 0
+          nextNode:
+            dialogueText: "I'm always willing to try new ideas out. A shame to let
+              it go to waste... \nMaybe you could help me find someone that might
+              like to sample it?"
+            responses:
+            - responseText: '"Quack!"'
+              battleNPC: 0
+              EnemyId: 0
+              nextNode:
+                dialogueText: '*The Duck happily consumes the tasty seed-filled bread.*
+
+
+                  *Your
+                  maximum HP has increases by 10!*'
+                responses:
+                - responseText: '"Quack!"'
+                  battleNPC: 0
+                  EnemyId: 0
+                  nextNode:
+                    dialogueText: 
+                    responses: []
+                  questInfoForPoint: {fileID: 11400000, guid: 3583492328d6959429a5b0aad525e182, type: 2}
+                  startPoint: 0
+                  finishPoint: 1
+              questInfoForPoint: {fileID: 0}
+              startPoint: 0
+              finishPoint: 0
+            - responseText: Ruffle Feathers
+              battleNPC: 0
+              EnemyId: 0
+              nextNode:
+                dialogueText: 'Oh... that''s okay. Thanks for listening to me.
+
+                  I
+                  guess I''ll just enjoy it when I go home, then.'
+                responses: []
+              questInfoForPoint: {fileID: 0}
+              startPoint: 0
+              finishPoint: 0
+          questInfoForPoint: {fileID: 0}
+          startPoint: 0
+          finishPoint: 0
+      questInfoForPoint: {fileID: 11400000, guid: 3583492328d6959429a5b0aad525e182, type: 2}
+      startPoint: 1
+      finishPoint: 0

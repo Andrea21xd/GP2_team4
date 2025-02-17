@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d0d70adf2c0514d9f122160ac54b64, type: 3}
+  m_Name: Villager_A_D1
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: "I... I overheard the whole encounter! \nThe legends spoke the
+      truth, everyone!\r\n\nNow that you\u2019re here, mighty hero... \nWould you
+      be able to lend us a hand?"
+    responses:
+    - responseText: ...
+      battleNPC: 0
+      EnemyId: 0
+      nextNode:
+        dialogueText: "Our Duke's been working us down to the bone this entire year... 
+          \n...And what do we get? Nary a kind word in return."
+        responses:
+        - responseText: ...
+          battleNPC: 0
+          EnemyId: 1
+          nextNode:
+            dialogueText: "The villagers demand change... \nAlas, none have the mettle
+              to stand against him.\n\nThat\u2019s where you come in, my feathered
+              friend! \nYou can be the... well, \u2018representative\u2019 of the
+              people!"
+            responses:
+            - responseText: ...
+              battleNPC: 0
+              EnemyId: 0
+              nextNode:
+                dialogueText: "Well, what say you, our legendary quacking hero? \nWill
+                  you be our shining light during our times of darkness?"
+                responses:
+                - responseText: '"Quack!"'
+                  battleNPC: 0
+                  EnemyId: 0
+                  nextNode:
+                    dialogueText: 'Perfect! We''ll leave everything to you, then!
+
+
+                      The
+                      Duke''s Manor is located on the North side of the village...
+
+                      If
+                      you take the main road, you''ll eventually arrive at his Manor.
+
+
+                      Godspeed
+                      to you, our pint-sized savior!'
+                    responses:
+                    - responseText: OK
+                      battleNPC: 0
+                      EnemyId: 0
+                      nextNode:
+                        dialogueText: 
+                      questInfoForPoint: {fileID: 11400000, guid: 54e1a9414c99b314e866983bd60e0558, type: 2}
+                      startPoint: 1
+                      finishPoint: 0
+                  questInfoForPoint: {fileID: 0}
+                  startPoint: 0
+                  finishPoint: 0
+                - responseText: Ruffle Feathers
+                  battleNPC: 0
+                  EnemyId: 0
+                  nextNode:
+                    dialogueText: "Ah... er... I see. Well, I suppose it can't force
+                      you to take on such a responsibility. \nI am trying to leave
+                      the fate of our denizens to a duck, after all...\n\nIf we force
+                      you into it, we'd be no different than the Duke, would we..."
+                    responses:
+                    - responseText: Close
+                      battleNPC: 0
+                      EnemyId: 0
+                      nextNode:
+                        dialogueText: 
+                      questInfoForPoint: {fileID: 0}
+                      startPoint: 0
+                      finishPoint: 0
+                  questInfoForPoint: {fileID: 0}
+                  startPoint: 0
+                  finishPoint: 0
+              questInfoForPoint: {fileID: 0}
+              startPoint: 0
+              finishPoint: 0
+          questInfoForPoint: {fileID: 0}
+          startPoint: 0
+          finishPoint: 0
+      questInfoForPoint: {fileID: 0}
+      startPoint: 0
+      finishPoint: 0
